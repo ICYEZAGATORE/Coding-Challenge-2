@@ -16,9 +16,25 @@
 body{
 background-color: var(--bg-color);
 color: var(--text-color) ;
+width: 100% ;
+max-width: 100%;
 }
-main{
+.content-container{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+#right{flex: 1; 
+
+}
+#middle{ flex: 2;
+
+}
+#left{flex: 1;
+
 }
 .Profile{
     background-color: white;
@@ -47,4 +63,10 @@ main{
 }
 .Status{
     margin: 10px;
+}
+#avatar-img{width:60% ;
+
+}
+#forest-img{
+    width:100% ;
 }
