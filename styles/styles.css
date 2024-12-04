@@ -17,9 +17,13 @@ body{
 background-color: var(--bg-color);
 color: var(--text-color) ;
 }
+main{
+    display: flex;
+}
 .Profile{
     background-color: white;
     padding: 10px;
+    margin: 10px;
 }
 #main-button{
     background-color: var(--main-color);
@@ -27,4 +31,20 @@ color: var(--text-color) ;
 #status-button{
     background-color: var(--main-color);
     color: white;
+}
+.My-profile{
+    margin: 10px;
+}
+.tags{
+    background-color: ;
+}
+#Interests{
+    background-color: white;
+}
+.tags{
+    color: white;
+    background-color: var(--main-color);
+}
+.Status{
+    margin: 10px;
 }
