@@ -48,11 +48,12 @@ max-width: 100%;
     background-color: var(--main-color);
     color: white;
 }
-.My-profile{
+.My-profile , .right-side {
     margin: 10px;
+    background-color: white;
+    padding: 20px
 }
-.tags{
-    background-color: ;
+
 }
 #Interests{
     background-color: white;
@@ -60,6 +61,8 @@ max-width: 100%;
 .tags{
     color: white;
     background-color: var(--main-color);
+    padding: 3px;
+    margin-top: 3px;
 }
 .Status{
     margin: 10px;
