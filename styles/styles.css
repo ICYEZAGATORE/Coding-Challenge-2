@@ -1,4 +1,30 @@
+*,::after,::before
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root{
+    --bg-color: #e5f8e8;
+    --text-color: #000000;
+    --main-color: #4d6370;
+    --big-font: 6.6rem;
+    --p-font: 1rem;
+
+}
 body{
-    background-color: bisque;
-    color: black;
+background-color: var(--bg-color);
+color: var(--text-color) ;
+}
+.Profile{
+    background-color: white;
+    padding: 10px;
+}
+#main-button{
+    background-color: var(--main-color);
+}
+#status-button{
+    background-color: var(--main-color);
+    color: white;
 }
