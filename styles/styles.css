@@ -49,7 +49,7 @@ max-width: 100%;
     background-color: var(--main-color);
     color: white;
     margin-top: 5px;
-    transition:  all .6s ease;;
+    transition:  all .6s ease;
 }
  #main-button:hover{
     background-color: var(--bg-color) ;
@@ -80,7 +80,11 @@ max-width: 100%;
     color: white;
     background-color: var(--main-color);
     padding: 5px 5px 5px 5px;
-     ;
+    transition:  all .6s ease;
+}
+#mine-buttons:hover{
+     background-color: var(--bg-color) ;
+    color: #000000;
 }
 .Status{
     margin: 10px;
@@ -110,10 +114,20 @@ max-width: 100%;
    color: white;
    font-weight: bolder;
    padding: 5px;
+   transition:  all .6s ease;
+}
+#accept:hover{
+     background-color: var(--bg-color) ;
+    color: #000000;
 }
 #reject{
     background-color: rgb(189, 75, 75);
     color: white;
     font-weight: bolder;
      padding: 5px;
+     transition:  all .6s ease;
+}
+#reject:hover{
+     background-color: var(--bg-color) ;
+    color: #000000;
 }
