@@ -70,3 +70,17 @@ max-width: 100%;
 #forest-img{
     width:100% ;
 }
+.navigation-bar{
+    background-color: var(--main-color);
+    padding: 20px;
+}
+#footer{
+    background-color: var(--main-color);
+}
+#John-pictures{
+    width: 48%;
+}
+#pictures{
+    display:flex;
+    justify-content: space-between;
+}
