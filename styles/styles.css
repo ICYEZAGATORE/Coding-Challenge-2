@@ -131,3 +131,7 @@ max-width: 100%;
      background-color: var(--bg-color) ;
     color: #000000;
 }
+.fa{
+    color: white;
+    padding: 20px;
+}
