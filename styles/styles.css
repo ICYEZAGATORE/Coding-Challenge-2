@@ -155,3 +155,54 @@ max-width: 100%;
 h1 ,h2{
     padding-bottom: 5px;
 }
+/* Base Styles for all screens */
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+}
+
+:root {
+  --bg-color: #d7dce6;
+  --text-color: #000000;
+  --main-color: #4d6370;
+  --second-color: #d8e0e8;
+  --big-font: 6.6rem;
+  --p-font: 1rem;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  width: 100%;
+  max-width: 100%;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#right { flex: 1; }
+#middle { flex: 2; }
+#left { flex: 1; }
+
+.Profile, .My-profile, .right-side, .Status {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Buttons */
+#status-button, #main-button, #mine-buttons {
+  background-color: var(--main-color);
+  color: white;
+  margin-top: 5px;
+  transition: all .6s ease;
+  padding: 8px;
+  border-radius: 3
